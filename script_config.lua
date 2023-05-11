@@ -4,9 +4,8 @@ table.insert(Config.scriptsConfig, {
         docs = "docs/production/",  -- Defina a pasta de decomentos do productions.
         itens = "http://127.0.0.1/inventory/",  -- Defina a pasta de imagens do seus itens.
 
-        targetMode = false,  -- Defina como true para habilitar target para acessar a maquina e false para desabilitar, caso desabilitado um thread será criado para acessar aperdando uma tecla.
+        targetMode = true,  -- Defina como true para habilitar target para acessar a maquina e false para desabilitar, caso desabilitado um thread será criado para acessar aperdando uma tecla.
         keycap = 38,  -- Defina a tecla de interação! Padrão (38) Tecla [E].
-        nuiMode = true,  -- Não altere!
 
         striata_level = true,  -- Defina como true para habilitar requerimento de level e false para desabilitar. (Está opção necessita o script striata_level para funcionar!)
 
@@ -23,6 +22,8 @@ table.insert(Config.scriptsConfig, {
         timeToRefuel = 60,  -- Defina o tempo em segundos para reabastecer um objeto de produção.
 
         propsName = {"gr_prop_gr_vertmill_01c"},  -- Defina os nomes dos props que usam combustível e aceitam animações de produção.
+        ajustZ = -0.4,  -- Defina um ajuste de altura nos props.
+
         machines = {  -- Defina o spawn das maquinas e suas configurações. --? cds pegas usando bmx
         --! | Numero da maquina | X | Y | Z | H | Permissão (Defina "" para sem permissão) | Multiplicador |
             -- tudo
@@ -90,22 +91,6 @@ table.insert(Config.scriptsConfig, {
             [44] = { ["prop"] = "gr_prop_gr_vertmill_01c", ['x'] = -227.74, ['y'] = -1319.91, ['z'] = 30.28, ['h'] = 180.88, ["permission"] = {"mecanicobn.permissao",}, ["multiply"] = 1 },
             [45] = { ["prop"] = "gr_prop_gr_vertmill_01c", ['x'] = 102.86, ['y'] = 6614.06, ['z'] = 31.83, ['h'] = 316.70, ["permission"] = {"mecanicobe.permissao",}, ["multiply"] = 1 },
         },
-        ajustZ = -0.4,  -- Defina um ajuste de altura nos props.
-
-        -- nameItens = {  -- Altere os nomes que aparecem no target por aqui
-        --     {name = "AK-103" , item = "wbody|WEAPON_ASSAULTRIFLE" },
-        --     {name = "FIVE SEVEN" , item = "wbody|WEAPON_PISTOL_MK2" },
-        --     {name = "MP5" , item = "wbody|WEAPON_SMG" },
-        --     {name = "MONTAR AK-47" , item = "wbody|WEAPON_ASSAULTRIFLE_MK2" },
-        --     {name = "G36C" , item = "wbody|WEAPON_SPECIALCARBINE" },
-        --     {name = "Munição de AK-103" , item = "wammo|WEAPON_ASSAULTRIFLE" },
-        --     {name = "Munição de MONTAR AK-47" , item = "wammo|WEAPON_ASSAULTRIFLE_MK2" },
-        --     {name = "Munição de FIVE SEVEN" , item = "wammo|WEAPON_PISTOL_MK2" },
-        --     {name = "Munição de MP5" , item = "wammo|WEAPON_SMG" },
-        --     {name = "Munição de G36C" , item = "wammo|WEAPON_SPECIALCARBINE" },
-        --     {name = "Molotov" , item = "wbody|WEAPON_MOLOTOV" },
-        --     {name = "Inflamente do molotov" , item = "wammo|WEAPON_MOLOTOV" },
-        -- }, 
 
         machinesProduction = {  -- Defina quais opções de produção cada maquina vai ter.
         --! | Numero da maquina | (itemReq1-2-3) Itens requeridos | (amountReq1-2-3) Qauntidade requirida | (item) Item Produzido | (amount) Qauntidade produzida  | (time) Tempo de produção em segundos | (level) Nivel minimo para produzir [script striata_level necessario] |
