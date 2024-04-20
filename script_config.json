@@ -2,7 +2,7 @@
     "scriptConfig": {
         "docs": "../resources/striata_production/html/docs/",
         "itens": "http://189.84.253.94/inventory/",
-        "webhook": "https://discord.com/api/webhooks/1166200295626395678/zebPV5wwFrHBUl0_kDu9QL0Z6hFb3a7mDWt-pFK6VjkE8NonEb-MzwDvxff0G_0fEQSj",
+        "webhook": "",
         "webhookImageUrl": "https://i.imgur.com/3cOtcgU.gif",
         "targetMode": true,
         "keycap": 38,
