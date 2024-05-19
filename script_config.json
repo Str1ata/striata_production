@@ -1,10 +1,11 @@
 {
     "scriptConfig": {
         "docs": "../resources/striata_production/html/docs/",
-        "itens": "http://189.84.253.94/inventory/",
+        "itens": "http://0.0.0.0/inventory/",
         "webhook": "",
         "webhookImageUrl": "https://i.imgur.com/3cOtcgU.gif",
         "targetMode": true,
+        "checkSpawnedProps": true,
         "keycap": 38,
         "striata_level": true,
         "productionAnimation": true,
