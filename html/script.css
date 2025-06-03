@@ -1,503 +1,835 @@
 #nuiProduction {
-	/* background-color: rgba(0, 0, 0, 0.521); */
-}
-
-.background {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-	align-items: center;
-	width: 50%;
-	height: 50%;
-
-	border: solid rgb(165, 163, 163);
-	border-width: 0.5em 0.5em 0.5em 0.5em;
+	display: none;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
 }
 
-.background img {
+#nuiProduction .menuContainer {
+	position: relative;
 	width: 100%;
 	height: 100%;
 }
 
-.itens .item img {
+#nuiProduction .menuContainer .background {
 	position: absolute;
-	top: 46%;
-	left: 48%;
-	text-align: center;
-	align-items: center;
-	transform: translate(-46%,-48%);
-	width: 10%;
-	height: 10%;
 }
 
-.itens .item:hover img {
-	opacity: 0.7;
+#nuiProduction #fivem .menuContainer .background {
+	width: 887px;
+	height: 588px;
+	top: 246px;
+	left: 516px;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(270deg, rgba(12, 20, 26, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);	
+	border-radius: 17.19px;
+	border: 1.22px solid rgba(31, 165, 222, 0.2);
 }
 
-.itens .itemReq1 img {
+#nuiProduction #redm .menuContainer .background {
+	width: 887px;
+	height: 588px;
+	top: 246px;
+	left: 516px;
+
+    background-image: url("../resources/striata_production/html/docs/redmbg.png");
+    background-size: 1337px 816px; /* Define o tamanho exato da imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nuiProduction .menuContainer .background .objectImage {
 	position: absolute;
-	top: 40%;
-	left: 38%;
-	text-align: center;
-	align-items: center;
-	width: 4%;
-	height: 4%;
-}
-
-.itens .itemReq1:hover img {
-	opacity: 0.7;
-}
-
-.itens .itemReq2 img {
-	position: absolute;
-	top: 45%;
-	left: 38%;
-	text-align: center;
-	align-items: center;
-	width: 4%;
-	height: 4%;
-}
-
-.itens .itemReq2:hover img {
-	opacity: 0.7;
-}
-
-.itens .itemReq3 img {
-	position: absolute;
-	top: 50%;
-	left: 38%;
-	text-align: center;
-	align-items: center;
-	width: 4%;
-	height: 4%;
-}
-
-.itens .itemReq3:hover img {
-	opacity: 0.7;
-}
-
-.itens .item p.itemAmmount {
-	position: absolute;
-	top: 52%;
-	left: 48%;
-	text-align: center;
-	transform: translate(-46%,-48%);
-	width: 10%;
-	height: 10%;
-
-	color: rgb(255, 255, 255);
-	font-size: 100%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	overflow-wrap: break-word;
-}
-
-.itens .item p.itemName {
-	position: absolute;
-	top: 52%;
-	left: 48%;
-	text-align: center;
-	transform: translate(-46%,-48%);
-	width: 10%;
-	height: 10%;
-
-	color: rgb(255, 255, 255);
-	font-size: 100%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	/* overflow-wrap: break-word; */
-	opacity: 0;
-}
-
-.itens .item:hover p.itemAmmount {
-	opacity: 0;
-}
-.itens .item:hover p.itemName {
-	opacity: 1;
-}
-
-.itens .itemReq1 p.itemAmmount {
-	position: absolute;
-	top: 41.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	overflow-wrap: break-word;
-}
-
-.itens .itemReq1 p.itemName {
-	position: absolute;
-	top: 41.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	/* overflow-wrap: break-word; */
-	opacity: 0;
-}
-
-.itens .itemReq1:hover p.itemAmmount {
-	opacity: 0;
-}
-.itens .itemReq1:hover p.itemName {
-	opacity: 1;
-}
-
-.itens .itemReq2 p.itemAmmount {
-	position: absolute;
-	top: 46.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	overflow-wrap: break-word;
-}
-
-.itens .itemReq2 p.itemName {
-	position: absolute;
-	top: 46.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	/* overflow-wrap: break-word; */
-	opacity: 0;
-}
-
-.itens .itemReq2:hover p.itemAmmount {
-	opacity: 0;
-}
-.itens .itemReq2:hover p.itemName {
-	opacity: 1;
-}
-
-.itens .itemReq3 p.itemAmmount {
-	position: absolute;
-	top: 51.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	overflow-wrap: break-word;
-}
-
-.itens .itemReq3 p.itemName {
-	position: absolute;
-	top: 51.5%;
-	left: 38%;
-	text-align: center;
-	width: 4%;
-	height: 4%;
-
-	color: rgb(255, 255, 255);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5), 1px 1px rgba(0, 0, 0, 0.5), -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	/* overflow-wrap: break-word; */
-	opacity: 0;
-}
-
-.itens .itemReq3:hover p.itemAmmount {
-	opacity: 0;
-}
-.itens .itemReq3:hover p.itemName {
-	opacity: 1;
-}
-
-.productionButtons button {
-	transform: translate(-50%,-50%);
-	text-align: center;
-	align-items: center;
-
-	color: rgb(0, 0, 0);
-	font-size: 65%;
-	font-weight: 900;
-	text-shadow: 2px 0 0 rgba(201, 201, 201, 0.500), -2px 0 0 rgba(201, 201, 201, 0.500), 0 2px 0 rgba(201, 201, 201, 0.500), 0 -2px 0 rgba(201, 201, 201, 0.500), 1px 1px rgba(201, 201, 201, 0.500), -1px -1px 0 rgba(201, 201, 201, 0.500), 1px -1px 0 rgba(201, 201, 201, 0.500), -1px 1px 0 rgba(201, 201, 201, 0.500);
-	list-style: none;
-	user-select: none;
-	white-space: nowrap;
-	text-transform: uppercase;
-	font-family: "Roboto",Arial,Helvetica,sans-serif;
-	white-space: pre-line;
-	overflow-wrap: break-word;
+	width: 425.343994140625px;
+	height: 521px;
+	transform: scale(1.25);
+	top: -40px;
+	left: -95px;
 	
-	background-color: rgba(22, 145, 211, 0);
-	border: solid rgba(0, 0, 0, 0);
-	border-width: 0.1em 0.1em 0.1em 0.1em;
-    max-width: 100%;
-	max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.productionButtons #up{
+#nuiProduction .menuContainer .background .productionButtons {
 	position: absolute;
-    text-align: center;
-	align-items: center;
-    top: 14.7%;
-    left: 14%;
-    width: 19%;
-	height: 12%;
-
-}
-.productionButtons #down{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-    top: 32.7%;
-    left: 14%;
-    width: 19%;
-	height: 12%;
-}
-.productionButtons #button3{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-    top: 50.7%;
-    left: 14%;
-    width: 19%;
-	height: 12%;
-}
-.productionButtons #button4{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 68.7%;
-    left: 14%;
-    width: 19%;
-	height: 12%;
-}
-.productionButtons #button5{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 14%;
-    width: 19%;
-	height: 12%;
-}
-.productionButtons #power{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 30%;
-    width: 9%;
-	height: 12%;
-}
-
-.productionButtons #powerStatus{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 43.2%;
-    width: 9%;
-	height: 12%;
-	font-size: 100%;
-}
-
-.productionButtons #level{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 56.5%;
-    width: 9%;
-	height: 12%;
-	color: rgb(255, 255, 0);
-	text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), -2px 0 0 rgba(0,0,0, 0.500), 0 2px 0 rgba(0,0,0, 0.500), 0 -2px 0 rgba(0,0,0, 0.500), 1px 1px rgba(0,0,0, 0.500), -1px -1px 0 rgba(0,0,0, 0.500), 1px -1px 0 rgba(0,0,0, 0.500), -1px 1px 0 rgba(0,0,0, 0.500);
-}
-
-.productionButtons #productionStatus{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 69.73%;
-    width: 9%;
-	height: 12%;
-	font-size: 100%;
-}
-
-.productionButtons #reFuel{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 23.8%;
-    left: 79.3%;
-    width: 9%;
-	height: 28%;
-}
-
-.productionButtons #button11{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 23.8%;
-    left: 91.5%;
-    width: 9%;
-	height: 28%;
-}
-
-.productionButtons #button12{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 59.8%;
-    left: 79.3%;
-    width: 9%;
-	height: 28%;
-}
-.productionButtons #button13{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 59.8%;
-    left: 91.5%;
-    width: 9%;
-	height: 28%;
-}
-
-.productionButtons #start{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 86.4%;
-    left: 85.2%;
-    width: 18.5%;
-	height: 12%;
-}
-
-.productionButtons #ofuscate{
-	position: absolute;
-	text-align: center;
-	align-items: center;
-	top: 10.0%;
-    left: 102.5%;
-    width: 5.0%;
-	height: 10.0%;
-	background-color: rgb(61, 116, 148);
-	border: solid rgb(165, 163, 163);
-	border-width: 0.5em 0.5em 0.5em 0.0em;
-}
-
-.productionButtons #button11 .quantityFuel{
-	background-color: #4e4e4e;
-	position: relative;
-	margin-left: 34%;
-	width: 30%;
-	height: 50%;
-	float: left;
-	border: solid rgb(0, 0, 0);
-	border-width: 0.2em 0.2em 0.2em 0.2em;
-}
-
-.productionButtons #button11 .quantityFuel #quantityFuelProgress{
-	position: absolute;
-	bottom: 0;
 	width: 100%;
-	box-sizing: border-box;
-	animation: grow 1.5s ease-out forwards;
-	transform-origin: bottom;
-
-	background-color: rgb(0, 255, 0);
 	height: 100%;
 }
 
-.productionButtons #button13 .quantityProcess{
-	background-color: #4e4e4e;
-	position: relative;
-	margin-left: 34%;
-	width: 30%;
-	height: 50%;
-	float: left;
-	border: solid rgb(0, 0, 0);
-	border-width: 0.2em 0.2em 0.2em 0.2em;
+#nuiProduction .menuContainer .background .productionButtons #close {
+	position: absolute;
+	width: 36.48484802246094px;
+	height: 35.41176223754883px;
+	left: 800px;
+	top: 48px;
+
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+	border: none;
+
+	cursor: pointer;
 }
 
-.productionButtons #button13 .quantityProcess #quantityProcessProgress{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	box-sizing: border-box;
-	animation: grow 1.5s ease-out forwards;
-	transform-origin: bottom;
+#nuiProduction .menuContainer .background .productionButtons #close:hover {
+    filter: brightness(0.8);
+}
 
-	background-color: rgb(255, 71, 71);
-	height: 0%;
+#nuiProduction #fivem .menuContainer .background .productionButtons #close {
+	border-radius: 17.71px;
+	
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='37' height='36' viewBox='0 0 37 36' fill='none'%3E%3Crect width='36.4848' height='35.4118' rx='17.7059' fill='url(%23paint0_linear_647_1635)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M18.2498 19.9757L22.5863 24.3073C22.8164 24.5371 23.1285 24.6663 23.4539 24.6663C23.7794 24.6663 24.0915 24.5371 24.3216 24.3073C24.5517 24.0774 24.681 23.7657 24.681 23.4406C24.681 23.1156 24.5517 22.8039 24.3216 22.574L19.9834 18.2424L24.3208 13.9108C24.4346 13.797 24.525 13.6619 24.5866 13.5133C24.6482 13.3646 24.6799 13.2052 24.6799 13.0443C24.6798 12.8834 24.648 12.7241 24.5864 12.5754C24.5247 12.4268 24.4343 12.2917 24.3203 12.178C24.2064 12.0642 24.0712 11.974 23.9223 11.9124C23.7735 11.8509 23.6139 11.8192 23.4528 11.8193C23.2917 11.8193 23.1322 11.8511 22.9834 11.9127C22.8346 11.9743 22.6994 12.0646 22.5855 12.1784L18.2498 16.51L13.9133 12.1784C13.8002 12.0613 13.6649 11.9679 13.5152 11.9036C13.3656 11.8393 13.2047 11.8055 13.0418 11.804C12.8789 11.8025 12.7174 11.8334 12.5666 11.8949C12.4159 11.9565 12.2789 12.0474 12.1636 12.1624C12.0484 12.2774 11.9573 12.4141 11.8955 12.5647C11.8338 12.7152 11.8027 12.8765 11.804 13.0392C11.8053 13.2019 11.8391 13.3627 11.9033 13.5122C11.9675 13.6617 12.0609 13.797 12.178 13.91L16.5162 18.2424L12.1788 22.5748C12.0617 22.6879 11.9683 22.8231 11.9041 22.9727C11.8399 23.1222 11.8062 23.283 11.8048 23.4456C11.8035 23.6083 11.8346 23.7696 11.8963 23.9202C11.9581 24.0707 12.0492 24.2075 12.1645 24.3225C12.2797 24.4375 12.4167 24.5284 12.5674 24.5899C12.7182 24.6514 12.8798 24.6824 13.0426 24.6809C13.2055 24.6794 13.3664 24.6455 13.5161 24.5812C13.6657 24.5169 13.801 24.4235 13.9141 24.3065L18.2498 19.9757Z' fill='white'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_647_1635' x1='36.4848' y1='17.7059' x2='0' y2='17.7059' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23ED0043'/%3E%3Cstop offset='1' stop-color='%2399002B'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #close {
+	border-radius: 2px;
+	
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='34' height='33' viewBox='0 0 34 33' fill='none'><rect width='34' height='33' rx='2' fill='url(%23paint0_linear_806_1272)'/><path d='M13.5114 22.7923C13.5114 22.2429 13.5571 21.7066 13.6487 21.1834C13.7403 20.6602 13.8384 20.137 13.943 19.6138C14.0476 19.0906 14.1457 18.574 14.2373 18.0638C14.3419 17.5406 14.3943 17.0044 14.3943 16.455V16.0233C14.3289 15.971 14.1981 15.8598 14.0019 15.6898C13.8057 15.5067 13.5833 15.2909 13.3348 15.0423C13.0993 14.7938 12.8377 14.5191 12.55 14.2183C12.2753 13.9044 12.0202 13.5839 11.7848 13.2569C11.5624 12.9299 11.3728 12.6095 11.2158 12.2955C11.0719 11.9816 11 11.6808 11 11.393C11 11.3407 11 11.2622 11 11.1576C11.0131 11.0529 11.0262 10.9614 11.0392 10.8829C11.0654 10.7913 11.1112 10.7129 11.1766 10.6475C11.242 10.5821 11.327 10.5494 11.4316 10.5494C11.7456 10.5494 12.0137 10.6344 12.2361 10.8044C12.4715 10.9745 12.6808 11.1903 12.8639 11.4519C13.047 11.7004 13.2171 11.9751 13.374 12.2759C13.531 12.5637 13.6945 12.8384 13.8645 13.1C14.0476 13.3485 14.2438 13.5578 14.4531 13.7278C14.6755 13.8978 14.9371 13.9829 15.2379 13.9829C15.5388 13.9829 15.8134 13.8848 16.062 13.6886C16.3105 13.4924 16.5459 13.2504 16.7683 12.9626C17.0037 12.6618 17.2392 12.3413 17.4746 12.0012C17.7231 11.6481 17.9913 11.3276 18.279 11.0399C18.5668 10.739 18.8938 10.4905 19.26 10.2943C19.6263 10.0981 20.0514 10 20.5353 10C20.5353 10.3532 20.4503 10.6736 20.2803 10.9614C20.1233 11.2491 19.9271 11.5238 19.6917 11.7854C19.4562 12.0339 19.1946 12.2825 18.9069 12.531C18.6322 12.7795 18.3706 13.0411 18.1221 13.3158C17.8866 13.5774 17.6904 13.8651 17.5335 14.1791C17.3765 14.493 17.298 14.8396 17.298 15.2189C17.298 15.402 17.4288 15.6571 17.6904 15.9841C17.952 16.3111 18.2725 16.6708 18.6518 17.0632C19.0442 17.4425 19.4693 17.8349 19.9271 18.2404C20.3849 18.6328 20.8166 18.9991 21.222 19.3391C21.6275 19.6792 21.9741 19.967 22.2619 20.2024C22.5497 20.4379 22.7262 20.5817 22.7916 20.6341C22.7916 20.6602 22.7982 20.7322 22.8113 20.8499C22.8243 20.9545 22.8309 21.0265 22.8309 21.0657C22.8309 21.2881 22.7786 21.4908 22.6739 21.6739C22.5824 21.857 22.4123 21.9486 22.1638 21.9486C22.1376 21.9486 22.0984 21.9421 22.0461 21.929C22.0068 21.9159 21.9807 21.9094 21.9676 21.9094C21.863 21.8178 21.7125 21.687 21.5163 21.517C21.3332 21.3338 21.1174 21.1311 20.8689 20.9087C20.6204 20.6864 20.3588 20.4575 20.0841 20.222C19.8094 19.9735 19.5478 19.7446 19.2993 19.5353C19.0508 19.313 18.8219 19.1168 18.6126 18.9467C18.4033 18.7636 18.2529 18.6328 18.1613 18.5543C18.0436 18.4497 17.8932 18.3254 17.71 18.1816C17.5269 18.0246 17.3438 17.8807 17.1607 17.7499C16.9906 17.606 16.8402 17.4883 16.7094 17.3968C16.5786 17.3052 16.5067 17.2659 16.4936 17.279L16.062 17.7107C15.9573 17.8284 15.8788 18.0835 15.8265 18.4759C15.7873 18.8683 15.748 19.3326 15.7088 19.8689C15.6696 20.3921 15.6303 20.948 15.5911 21.5366C15.5518 22.1252 15.4864 22.668 15.3949 23.165C15.3164 23.6621 15.1921 24.0741 15.0221 24.4011C14.8521 24.7281 14.6297 24.8916 14.355 24.8916C14.1065 24.8916 13.9168 24.8131 13.786 24.6562C13.6683 24.4992 13.5898 24.3095 13.5506 24.0872C13.5114 23.8517 13.4917 23.6163 13.4917 23.3809C13.5048 23.1454 13.5114 22.9492 13.5114 22.7923Z' fill='white'/><defs><linearGradient id='paint0_linear_806_1272' x1='0' y1='16.5' x2='34' y2='16.5' gradientUnits='userSpaceOnUse'><stop stop-color='%23ED1C00'/><stop offset='1' stop-color='%23931707'/></linearGradient></defs></svg>");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #up {
+	position: absolute;
+	width: 223px;
+	height: 54px;
+	top: 48px;
+	left: 331px;
+	
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #up {
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+	border-radius: 21.34px;
+	border: 0.84px solid #1FA5DE;
+	box-shadow: 0px 0px 8.37px 0px #1FA5DECC;
+
+	font-family: "Futuru";
+	font-weight: 300;
+	font-size: 13.39px;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #up {
+	border-radius: 5px;
+	background: #70553BB2;
+	border: 1.16px #FFA142;
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	font-size: 13.39px;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #up:hover {
+	background: linear-gradient(270deg, #FFF 0%, #DCDCDC 100%);
+
+	color: #2C67BF;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #up:hover {
+	background: linear-gradient(90deg, #B76226 0%, #9F6338 22.5%, #7C4721 100%);
+
+	color: white;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #down {
+	position: absolute;
+	width: 223px;
+	height: 54px;
+	top: 126px;
+	left: 331px;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #down {
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+	border-radius: 21.34px;
+	border: 0.84px solid #1FA5DE;
+	box-shadow: 0px 0px 8.37px 0px #1FA5DECC;
+
+	font-family: "Futuru";
+	font-weight: 300;
+	font-size: 13.39px;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #down {
+	border-radius: 5px;
+	background: #70553BB2;
+	border: 1.16px #FFA142;
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	font-size: 13.39px;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #down:hover {
+	background: linear-gradient(270deg, #FFF 0%, #DCDCDC 100%);
+
+	color: #2C67BF;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #down:hover {
+	background: linear-gradient(90deg, #B76226 0%, #9F6338 22.5%, #7C4721 100%);
+
+	color: white;
+}
+
+
+#nuiProduction .menuContainer .background .productionButtons #button3 {
+	position: absolute;
+	width: 223px;
+	height: 54px;
+	top: 203px;
+	left: 331px
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #button3 {
+	border-radius: 15px;
+	border: 1.16px solid #64646480;
+	background: #3737371A;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #button3 {
+	border-radius: 5px;
+	background: #70553B4D;
+	border: 1.16px rgba(255, 195, 66, 0.5);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #button4 {
+	position: absolute;
+	width: 223px;
+	height: 54px;
+	top: 284.16px;
+	left: 331px;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #button4 {
+	border-radius: 15px;
+	border: 1.16px solid #64646480;
+	background: #3737371A;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #button4 {
+	border-radius: 5px;
+	background: #70553B4D;
+	border: 1.16px rgba(255, 195, 66, 0.5);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #button5 {
+	position: absolute;
+	width: 223px;
+	height: 54px;
+	top: 365.31px;
+	left: 331px;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #button5 {
+	border-radius: 15px;
+	border: 1.16px solid #64646480;
+	background: #3737371A;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #button5 {
+	border-radius: 5px;
+	background: #70553B4D;
+	border: 1.16px rgba(255, 195, 66, 0.5);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #power {
+	position: absolute;
+	width: 128px;
+	height: 49px;
+	top: 489px;
+	left: 52px;
+
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #power {
+	border-radius: 25.5px;
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+	border: 1px #1FA5DE;
+	box-shadow: 0px 0px 10px 0px #1FA5DECC;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #power {
+	background: #70553BB2;
+	border-radius: 5px;	
+	border: 1.16px #FFC342;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #power #powerStatus {
+	position: relative;
+	width: 61px;
+	height: 41px;
+	top: 4px;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+
+	transform: translateX(50%);
+	transition: transform 0.5s ease;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #power #powerStatus {
+	border-radius: 2000px;
+	background: linear-gradient(180deg, #61737B 0%, #2D323A 100%);
+
+	font-family: "Futuru";
+	font-weight: 900;
+	font-size: 16px;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #power #powerStatus {
+	border-radius: 5px;
+	background: linear-gradient(270deg, #B1A195 0%, #716157 100%);
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	font-size: 16px;
+	
+	border: none;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #power:hover #powerStatus,
+#nuiProduction .menuContainer .background .productionButtons #power #powerStatus:hover {
+    filter: brightness(0.8);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #power #powerStatus.on {
+	transform: translateX(-50%);
+}
+#nuiProduction #fivem .menuContainer .background .productionButtons #power #powerStatus.on {
+	background: linear-gradient(180deg, #1FA5DE 0%, #2C67BF 100%);
+}
+#nuiProduction #redm .menuContainer .background .productionButtons #power #powerStatus.on {
+	background: linear-gradient(270deg, #E89B20 0%, #986718 100%);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #level {
+	position: absolute;
+	width: 128px;
+	height: 49px;
+	top: 489px;
+	left: 375px;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+
+	color: white;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #level {
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+	
+	border-radius: 25.5px;
+	border: 1px solid #1FA5DE;
+	box-shadow: 0px 0px 10px 0px #1FA5DECC;
+
+	font-family: "Futuru";
+	font-weight: 900;
+	font-size: 16px;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #level {
+	background: #70553BB2;
+
+	border-radius: 5px;
+	border-width: 1.16px;
+	border: 1.16px solid #FFC342;
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	font-size: 19.45px;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #level span {
+	font-weight: 200;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #level span {
+	font-family: "Give You Glory";
+}
+
+#nuiProduction .menuContainer .background .productionButtons #reFuel {
+	position: absolute;
+	width: 230px;
+	height: 41px;
+	top: 160px;
+	left: 606px;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 11px;
+
+	color: white;
+
+	border: none;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #reFuel {
+	border-radius: 19.32px;
+	background: #FFFFFF0D;
+
+	font-family: "Futuru";
+	font-weight: 900;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #reFuel {
+	border-radius: 5px;
+	background: linear-gradient(90deg, rgba(112, 85, 59, 0.3) 0%, rgba(214, 162, 113, 0.3) 100%);
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #reFuel:hover {
+	background: linear-gradient(270deg, #FFF 0%, #DCDCDC 100%);
+
+	color: #2C67BF;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #reFuel:hover {
+	background: linear-gradient(90deg, #B76226 0%, #9F6338 22.5%, #7C4721 100%);
+
+	color: white;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityFuel {
+	position: absolute;
+	width: 230px;
+	height: 41px;
+	top: 211px;
+	left: 606px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityFuel {
+	border-radius: 20.5px;
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+	border: 1px solid rgba(31, 165, 222, 0.1);
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityFuel {
+	border-radius: 5px;
+	background: #70553BB2;
+	border: 1.16px solid #FFA142;	
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgress {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	mix-blend-mode: Plus lighter;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgress {
+	border-radius: 20.5px;
+
+	background: linear-gradient(270deg, #1FA5DE 0%, #2C67BF 100%);
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgress {
+	border-radius: 5px;
+	background: linear-gradient(270deg, #A86E2B 0%, #76490A 100%);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgressText {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	font-size: 14px;
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-transform: uppercase;
+	
+	transform: translate(0%,25%);
+
+	color: white;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgressText {
+	font-family: "Futuru";
+	font-weight: 300;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityFuel #quantityFuelProgressText {
+	font-family: "Give You Glory";
+	font-weight: 400;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #process {
+	position: absolute;
+	width: 230px;
+	height: 41px;
+	top: 276px;
+	left: 606px;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 11px;
+
+	color: white;
+
+	border: none;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #process {
+	border-radius: 19.32px;
+	background: #FFFFFF0D;
+
+	font-family: "Futuru";
+	font-weight: 900;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #process {
+	border-radius: 5px;
+	background: linear-gradient(90deg, rgba(112, 85, 59, 0.3) 0%, rgba(214, 162, 113, 0.3) 100%);
+
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityProcess {
+	position: absolute;
+	width: 230px;
+	height: 41px;
+	top: 327px;
+	left: 606px;
+
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityProcess {
+	border-radius: 20.5px;
+	background: linear-gradient(270deg, rgba(12, 20, 26, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+	border: 1px solid rgba(31, 165, 222, 0.1);
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityProcess {
+	border-radius: 5px;
+	background: #70553BB2;
+	border: 1.16px solid #FFA142;	
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgress {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	mix-blend-mode: Plus lighter;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgress {
+	border-radius: 20.5px;
+
+	background: linear-gradient(270deg, #38C466 0%, #15563A 100%);
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgress {
+	border-radius: 5px;
+	background: linear-gradient(270deg, #A84C2B 0%, #76260A 100%);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgressText {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+
+	font-size: 14px;
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-transform: uppercase;
+	
+	transform: translate(0%,25%);
+
+	color: white;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgressText {
+	font-family: "Futuru";
+	font-weight: 300;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #quantityProcess #quantityProcessProgressText {
+	font-family: "Give You Glory";
+	font-weight: 400;
+}
+
+#nuiProduction .menuContainer .background .productionButtons #start {
+	position: absolute;
+	width: 230px;
+	height: 49px;
+	left: 606px;
+	top: 489px;
+	flex-shrink: 0;
+
+	font-style: normal;
+	line-height: normal;
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+
+	border: none;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #start {
+	border-radius: 24.5px;
+	background: linear-gradient(270deg, #FFF 0%, #DCDCDC 100%);
+
+	color: #2C67BF;
+	font-family: "Futuru";
+	font-size: 21.6px;
+	font-weight: 300;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #start {
+	border-radius: 2.337px;
+	background: linear-gradient(90deg, #B76226 0%, #9F6338 22.5%, #7C4721 100%);
+
+	color: white;
+	font-family: "Gloria Hallelujah";
+	font-size: 15.189px;
+	font-weight: 400;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #start:hover {
+	color: white;
+	background: linear-gradient(270deg, #1FA5DE 0%, #2C67BF 100%), #FFF;
+}
+#nuiProduction #redm .menuContainer .background .productionButtons #start:hover {
+	color: #2C231B;
+	background: linear-gradient(270deg, #998C83 0%, #D0C9C4 100%);
+}
+
+#nuiProduction .menuContainer .background .productionButtons #ofuscate {
+	position: absolute;
+
+	text-align: center;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+#nuiProduction #fivem .menuContainer .background .productionButtons #ofuscate {
+    width: 5.0%;
+	height: 7.0%;
+	left: 50%;
+	top: -7%;
+	transform: translate(-50%, 0%);
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(270deg, rgba(12, 20, 26, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+	border: solid rgba(31, 165, 222, 0.2);
+	border-width: 1.22px 1.22px 0.0vh 1.22px;
+}
+
+#nuiProduction #redm .menuContainer .background .productionButtons #ofuscate {
+    width: 5.0%;
+	height: 7.0%;
+	left: 100%;
+	top: 50%;
+	transform: translate(0%, -50%);
+
+	background: #9C8868E5;
+	border: none;
+}
+
+#nuiProduction .menuContainer .background .itens {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	leading-trim: Cap height;
+	line-height: 100%;
+	letter-spacing: 10%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+
+	pointer-events: none; /* Não bloqueia interações */
+}
+
+#nuiProduction #fivem .menuContainer .background .itens {
+	font-family: "Futuru";
+	font-weight: 300;
+	font-size: 13.39px;
+}
+
+#nuiProduction #redm .menuContainer .background .itens {
+	font-family: "Gloria Hallelujah";
+	font-weight: 400;
+	font-size: 13.39px;
+}
+
+#nuiProduction .menuContainer .background .itens .item {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 6.5%;
+	top: 28%;
+
+	transform: translate(-6.5%,28%);
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq1 {
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	left: 0%;
+	top: 70%;
+
+	transform: translate(0%,70%);
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq2 {
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	left: 6.5%;
+	top: 70%;
+
+	transform: translate(-6.5%,70%);
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq3 {
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	left: 13%;
+	top: 70%;
+
+	transform: translate(-13%,70%);
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq1 img,
+#nuiProduction .menuContainer .background .itens .itemReq2 img,
+#nuiProduction .menuContainer .background .itens .itemReq3 img,
+#nuiProduction .menuContainer .background .itens .item img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+	align-items: center;
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq1:hover img,
+#nuiProduction .menuContainer .background .itens .itemReq2:hover img,
+#nuiProduction .menuContainer .background .itens .itemReq3:hover img,
+#nuiProduction .menuContainer .background .itens .item:hover img {
+	opacity: 0.7;
+}
+
+#nuiProduction .menuContainer .background .itens .itemReq1 p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq2 p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq3 p.itemName,
+#nuiProduction .menuContainer .background .itens .item p.itemName {
+	opacity: 0;
+}
+
+#nuiProduction .menuContainer .background .itens .item p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .item p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq1 p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq1 p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq2 p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq2 p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq3 p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq3 p.itemName {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 75%;
+	text-align: center;
+	align-items: center;
+}
+
+#nuiProduction .menuContainer .background .itens .item:hover p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq1:hover p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq2:hover p.itemAmmount,
+#nuiProduction .menuContainer .background .itens .itemReq3:hover p.itemAmmount {
+	opacity: 0;
+}
+
+#nuiProduction .menuContainer .background .itens .item:hover p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq1:hover p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq2:hover p.itemName,
+#nuiProduction .menuContainer .background .itens .itemReq3:hover p.itemName {
+	opacity: 1;
+}
+
+
+#nuiProduction .menuContainer .background .itens .item,
+#nuiProduction .menuContainer .background .itens .itemReq1,
+#nuiProduction .menuContainer .background .itens .itemReq2,
+#nuiProduction .menuContainer .background .itens .itemReq3 {
+	pointer-events: auto; /* Permite interações */
 }

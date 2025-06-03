@@ -1,8 +1,8 @@
 {
     "scriptConfig": {
         "docs": "../resources/striata_production/html/docs/",
-        "itens": "http://189.84.253.94/inventory/",
-        "webhook": "",
+        "itens": "http://192.168.1.247/inventory/",
+        "webhook": "https://discord.com/api/webhooks/1166200295626395678/zebPV5wwFrHBUl0_kDu9QL0Z6hFb3a7mDWt-pFK6VjkE8NonEb-MzwDvxff0G_0fEQSj",
         "webhookImageUrl": "https://i.imgur.com/3cOtcgU.gif",
         "targetMode": true,
         "checkSpawnedProps": true,
@@ -27,7 +27,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "-2.5%",
+                        "top": "16%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -295,7 +299,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -563,7 +571,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -831,7 +843,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -1099,7 +1115,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -1367,7 +1387,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -1635,7 +1659,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -1903,7 +1931,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -2171,7 +2203,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -2439,7 +2475,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -2707,7 +2747,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -2975,7 +3019,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -3243,7 +3291,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -3511,7 +3563,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -3779,7 +3835,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -4047,7 +4107,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -4315,7 +4379,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -4583,7 +4651,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -4851,7 +4923,11 @@
                     "permission": [],
                     "multiply": 3,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -5125,7 +5201,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -5339,7 +5419,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -5553,7 +5637,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -5767,7 +5855,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -5981,7 +6073,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6195,7 +6291,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6407,7 +6507,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6510,7 +6614,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6613,7 +6721,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6716,7 +6828,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6819,7 +6935,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -6922,7 +7042,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7023,7 +7147,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7085,7 +7213,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7147,7 +7279,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7209,7 +7345,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "laptop.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "none",
                         "anims": {}
@@ -7251,7 +7391,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "laptop.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "none",
                         "anims": {}
@@ -7293,7 +7437,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "laptop.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "none",
                         "anims": {}
@@ -7335,7 +7483,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7397,7 +7549,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7459,7 +7615,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7521,7 +7681,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "fueltrail.png",
+                    "imageAdjust": { 
+                        "left": "5%",
+                        "top": "30%"
+                    },
                     "anim": {
                         "mode": "none",
                         "anims": {}
@@ -7550,7 +7714,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7612,7 +7780,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7674,7 +7846,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7736,7 +7912,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7798,7 +7978,11 @@
                     ],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "vertmill_01c.bmp",
+                    "image": "vertmill.png",
+                    "imageAdjust": { 
+                        "left": "0%",
+                        "top": "0%"
+                    },
                     "anim": {
                         "mode": "sync",
                         "anims": {
@@ -7877,7 +8061,11 @@
                     "permission": [],
                     "multiply": 1,
                     "fuel": true,
-                    "image": "tabacaria.png",
+                    "image": "campfirecombined.png",
+                    "imageAdjust": { 
+                        "left": "-2.5%",
+                        "top": "16%"
+                    },
                     "anim": {
                         "mode": "normal",
                         "anims": {
