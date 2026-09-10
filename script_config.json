@@ -1,7 +1,7 @@
 {
     "scriptConfig": {
         "docs": "../resources/striata_production/html/docs/",
-        "itens": "http://192.168.1.247/inventory/",
+        "itens": "http://132.255.95.49/inventory/",
         "webhook": "https://discord.com/api/webhooks/1166200295626395678/zebPV5wwFrHBUl0_kDu9QL0Z6hFb3a7mDWt-pFK6VjkE8NonEb-MzwDvxff0G_0fEQSj",
         "webhookImageUrl": "https://i.imgur.com/3cOtcgU.gif",
         "targetMode": true,
